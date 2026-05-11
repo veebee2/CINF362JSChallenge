@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Nature Site</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+
+<nav>
+  <h2>Field Notes of Gaia</h2>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="explore.html">Explore</a></li>
+    <li><a href="field-notes.html">Field Notes</a></li>
+  </ul>
+</nav>
+
+<h1 class="page-title">Field Notes</h1>
+
+<section class="notes-container">
+
+  <p class="prompt">
+    What did you notice today? Describe the land, weather, plants, or sounds.
+  </p>
+
+  <textarea 
+    id="notesInput" 
+    placeholder="Write your observations here..."
+    maxlength="300"
+  ></textarea>
+
+  <div class="notes-footer">
+    <span id="charCount">0 / 300</span>
+    <button id="clearBtn">Clear</button>
+  </div>
+
+</section>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
